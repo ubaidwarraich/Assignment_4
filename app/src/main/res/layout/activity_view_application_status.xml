@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_height="match_parent"
+    android:layout_width="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        tools:context=".activities.EmailActivationFormActivity">
+
+        <TextView
+            android:id="@+id/ActivationFormLabel"
+            android:layout_width="284dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="103dp"
+            android:layout_marginRight="103dp"
+            android:background="#FAF8F8"
+            android:padding="8dp"
+            android:text="Email Activation Form"
+            android:textColor="#2196F3"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.644"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_studentname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AFB1AB"
+            android:padding="8dp"
+            android:text="Full Name"
+            android:textColor="#fff"
+
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="@+id/NameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/NameLabel" />
+
+        <TextView
+            android:id="@+id/tv_rollno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AFB1AB"
+
+            android:padding="8dp"
+            android:text="Roll Number"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="@+id/nameLabel"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabel" />
+
+        <TextView
+            android:id="@+id/tv_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AFB1AB"
+
+            android:padding="8dp"
+            android:text="Semester"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="@+id/nameLabel2"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabel2" />
+
+        <TextView
+            android:id="@+id/tv_Cnic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AFB1AB"
+
+            android:padding="8dp"
+            android:text="Cnic"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="@+id/nameLabel3"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabel3" />
+
+        <TextView
+            android:id="@+id/tv_Message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#AFB1AB"
+
+            android:padding="8dp"
+            android:text="Message"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="@+id/nameLabel4"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabel4" />
+
+        <TextView
+            android:id="@+id/tv_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="16dp"
+            android:background="#AFB1AB"
+            android:padding="8dp"
+            android:text="Comment"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="@+id/nameLabel5"
+            app:layout_constraintTop_toBottomOf="@+id/nameLabel5" />
+
+        <TextView
+            android:id="@+id/NameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginRight="200dp"
+            android:text="Full Name"
+            android:textColor="#03A9F4"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.235"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ActivationFormLabel" />
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Roll Number"
+            android:textColor="#03A9F4"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_studentname"
+            app:layout_constraintTop_toBottomOf="@+id/tv_studentname" />
+
+        <TextView
+            android:id="@+id/nameLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Semester"
+            android:textColor="#03A9F4"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_rollno"
+            app:layout_constraintTop_toBottomOf="@+id/tv_rollno" />
+
+        <TextView
+            android:id="@+id/nameLabel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Cnic"
+            android:textColor="#03A9F4"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_semester"
+            app:layout_constraintTop_toBottomOf="@+id/tv_semester" />
+
+        <TextView
+            android:id="@+id/nameLabel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Message"
+            android:textColor="#03A9F4"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_Cnic"
+            app:layout_constraintTop_toBottomOf="@+id/tv_Cnic" />
+
+        <TextView
+            android:id="@+id/nameLabel5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Comments"
+            android:textColor="#03A9F4"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/tv_Message"
+            app:layout_constraintTop_toBottomOf="@+id/tv_Message" />
+
+        <TextView
+            android:id="@+id/tv_approveStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="24dp"
+            android:text="Approved"
+            android:textColor="#03A9F4"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/tv_comments"
+            app:layout_constraintTop_toBottomOf="@+id/tv_comments" />
+
+        <ImageView
+            android:id="@+id/ic_approved"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            app:layout_constraintStart_toEndOf="@+id/tv_approveStatus"
+            app:layout_constraintTop_toTopOf="@+id/tv_approveStatus"
+            app:srcCompat="@drawable/check" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
